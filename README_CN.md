@@ -36,4 +36,5 @@
 ![preview5](doc/preview5.png)
 ## 鸣谢
 [@TheOfficialFloW](https://github.com/TheOfficialFloW)
+[@PokersKun](https://github.com/PokersKun/PPPwn-Loader)
 [@Mochengvia](https://github.com/Mochengvia)

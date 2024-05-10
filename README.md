@@ -34,4 +34,5 @@ A Windows front-end desktop program based on [PPPwn](https://github.com/TheOffic
 ![preview5](doc/preview5.png)
 ## Acknowledgments
 [@TheOfficialFloW](https://github.com/TheOfficialFloW)
+[@PokersKun](https://github.com/PokersKun/PPPwn-Loader)
 [@Mochengvia](https://github.com/Mochengvia)
