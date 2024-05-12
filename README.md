@@ -1,3 +1,14 @@
+# PPPwn Lite
+## New features
+- There is no need to let the PS4 enter "Test Internet Connection" during the process, just keep the PS4 turned on. Administrator rights are required when starting the exe. You can enter the Windows Control Panel\User Account User Account Control Settings to make changes, and you will not receive it again later. Pop-up reminder. If it still does not execute normally, you need to check whether the network cable and network card are disabled. If system and hardware problems are eliminated, you may also need to manually click on the PS4 to enter "Test Internet Connection". You still need to enter the PS4 network to set up PPPoE for the first time. You still need to enter the PS4 network to set up PPPoE for the first time.
+- There is no need to manually select stage1.bin and stage2.bin, the default will be the best choice. If you want to use your own bin file, enter "PPPwn" and find the corresponding version to overwrite the bin file.
+- Switch the original python solution to the PPPwn C++ solution, which has very low environmental requirements, higher execution efficiency, and a significant increase in success rate.
+- When the prompt fails, the next execution will be automatically retried. Combined with the first point, unattended operation can be achieved. In the future, status monitoring and background suspension will be improved to truly allow "full automation" to complete the closed loop.
+- Adjust some layouts, copywriting and interactions to make it look smaller and provide a smoother experience
+
+Special thanks to @PokersKun @theflow0 @xfangfang
+----------------------------------------------------------------------------
+
 # PPPwn Loader
 [中文](README_CN.md)
 ## Overview
@@ -26,12 +37,6 @@ A Windows front-end desktop program based on [PPPwn](https://github.com/TheOffic
     - Click `Test Internet Connection` to communicate with your computer
 7. At this point you will see a change in the `PPPwn Loader` interface, it will start to run PPPwn, please be patient and wait for the result, if it finally shows `Done` it means it was loaded successfully, you will see the result on your PS4.
 8. Keep in mind that the success rate of the current exploit is not very high, and if the PPPwn process fails, by default the PPPwn Loader will automatically restart the PPPwn by pressing the `×` on the joystick and then the `○`. If the PPPwn Loader does not respond, please click the `READY` button to stop your PPPwn and restart it, and then the PS4 will also need to click `Test Internet Connection` again.
-## Preview
-![preview1](doc/preview1.png)
-![preview2](doc/preview2.png)
-![preview3](doc/preview3.png)
-![preview4](doc/preview4.png)
-![preview5](doc/preview5.png)
 ## Acknowledgments
 [@TheOfficialFloW](https://github.com/TheOfficialFloW)
 [@PokersKun](https://github.com/PokersKun/PPPwn-Loader)

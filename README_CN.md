@@ -1,4 +1,14 @@
-# PPPwn Loader
+# PPPwn Lite 全自动轻量版
+## 新增特性
+- 过程中无需让PS4进入“测试互联网连接”，只需让PS4保持开机状态，启动exe时需要管理员权限，可以进入Windows控制面板\用户帐户用户账户控制设置进行更改，之后不会再收到弹窗提醒。如果始终没有正常执行，需要检查网线、网卡、是否禁用，如果排除系统和硬件问题，你可能还需要手动点击让PS4进入“测试互联网连接”。首次仍然需要进入PS4网络设置PPPoE。首次仍然需要进入PS4网络设置PPPoE。
+- 无需手动选择stage1.bin和stage2.bin，默认将会是最好的选择，如果你想要使用自己的bin文件，进入“PPPwn”，找到对应版本覆盖bin文件即可
+- 将原python方案切换为PPPwn C++方案，环境要求很低、执行效率更高、成功率提升较为明显
+- 当提示失败后，将会自动重试下一次执行，结合第一点可实现无人值守，后续还将完善状态监听和后台挂起，真正让“全自动”完成闭环
+- 调整部分布局、文案和交互，让其看起来更小巧，体验更流畅
+
+特别感谢：@PokersKun @theflow0 @xfangfang
+-----------------------------------------------------
+# PPPwn Loader 原版介绍
 [English](README.md)
 ## 概述
 一个基于 [PPPwn](https://github.com/TheOfficialFloW/PPPwn) 的 Windows 前端桌面程序，致力于减轻运行 PPPwn 所需要的环境依赖，用最简单的方式实现一键 RCE。
@@ -28,12 +38,6 @@
     - 单击 `测试互联网连接` 与计算机通信
 7. 此时您可以看到 `PPPwn Loader` 的界面产生变化，它将开始正式运行 PPPwn，请耐心等待运行结果，如最后显示 "Done" 则表示加载成功，您将会在 PS4 上看到运行结果。
 8. 请记住当前漏洞的成功率并不高，如 PPPwn 过程中出现失败提示，默认情况下 PPPwn Loader 将会自动重新开始 PPPwn，您只需要按下手柄上的 `×` 然后按下 `○` 即可。如 PPPwn Loader 没有响应，请点击 `READY` 按钮停止您的 PPPwn 并重头开始，此时 PS4 也需要重新点击 `测试互联网连接`。
-## 预览
-![preview1](doc/preview1.png)
-![preview2](doc/preview2.png)
-![preview3](doc/preview3.png)
-![preview4](doc/preview4.png)
-![preview5](doc/preview5.png)
 ## 鸣谢
 [@TheOfficialFloW](https://github.com/TheOfficialFloW)
 [@PokersKun](https://github.com/PokersKun/PPPwn-Loader)
