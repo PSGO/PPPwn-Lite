@@ -1,6 +1,6 @@
 # PPPwn Lite 全自动轻量版
 ## 新增特性
-- 过程中无需让PS4进入“测试互联网连接”，只需让PS4保持开机状态，启动exe时需要管理员权限，可以进入Windows控制面板\用户帐户用户账户控制设置进行更改，之后不会再收到弹窗提醒。如果始终没有正常执行，需要检查网线、网卡、是否禁用，如果排除系统和硬件问题，你可能还需要手动点击让PS4进入“测试互联网连接”。首次仍然需要进入PS4网络设置PPPoE。首次仍然需要进入PS4网络设置PPPoE。
+- 过程中无需让PS4进入“测试互联网连接”，只需让PS4保持开机状态，启动exe时需要管理员权限，可以进入Windows控制面板\用户帐户用户账户控制设置进行更改，之后不会再收到弹窗提醒。如果始终没有正常执行，需要检查网线、网卡、是否禁用，如果排除系统和硬件问题，你可能还需要手动点击让PS4进入“测试互联网连接”。首次仍然需要进入PS4网络设置PPPoE。
 - 无需手动选择stage1.bin和stage2.bin，默认将会是最好的选择，如果你想要使用自己的bin文件，进入“PPPwn”，找到对应版本覆盖bin文件即可
 - 将原python方案切换为PPPwn C++方案，环境要求很低、执行效率更高、成功率提升较为明显
 - 当提示失败后，将会自动重试下一次执行，结合第一点可实现无人值守，后续还将完善状态监听和后台挂起，真正让“全自动”完成闭环
@@ -15,7 +15,7 @@
 ## 概述
 一个基于 [PPPwn](https://github.com/TheOfficialFloW/PPPwn) 的 Windows 前端桌面程序，致力于减轻运行 PPPwn 所需要的环境依赖，用最简单的方式实现一键 RCE。
 ## 技术
-- 基于 .NET Framework 4.7.2 所开发的 WPF 应用程序。[下载](https://go.microsoft.com/fwlink/?linkid=863265)
+- 基于 .NET Framework 4.7.2 所开发的 WPF 应用程序。 [下载](https://go.microsoft.com/fwlink/?linkid=863265)
 - 界面元素采用 [Panuon.WPF.UI](https://github.com/Panuon/Panuon.WPF.UI) 实现。
 - `PPPwn` 文件夹下的 `pppwn.exe` 使用了 [PPPwn](https://github.com/TheOfficialFloW/PPPwn) 的 Python 脚本并由 [PyInstaller](https://pyinstaller.org) 所生成，`payload` 文件夹中用于测试的 `stage1.bin` 和 `stage2.bin` 文件也是来源于 [PPPwn](https://github.com/TheOfficialFloW/PPPwn) 仓库的源代码所编译生成。
 ## 需求
