@@ -15,7 +15,7 @@
 ## 概述
 一个基于 [PPPwn](https://github.com/TheOfficialFloW/PPPwn) 的 Windows 前端桌面程序，致力于减轻运行 PPPwn 所需要的环境依赖，用最简单的方式实现一键 RCE。
 ## 技术
-- 基于 .NET Framework 4.7.2 所开发的 WPF 应用程序。
+- 基于 .NET Framework 4.7.2 所开发的 WPF 应用程序。[下载](https://go.microsoft.com/fwlink/?linkid=863265)
 - 界面元素采用 [Panuon.WPF.UI](https://github.com/Panuon/Panuon.WPF.UI) 实现。
 - `PPPwn` 文件夹下的 `pppwn.exe` 使用了 [PPPwn](https://github.com/TheOfficialFloW/PPPwn) 的 Python 脚本并由 [PyInstaller](https://pyinstaller.org) 所生成，`payload` 文件夹中用于测试的 `stage1.bin` 和 `stage2.bin` 文件也是来源于 [PPPwn](https://github.com/TheOfficialFloW/PPPwn) 仓库的源代码所编译生成。
 ## 需求
