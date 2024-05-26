@@ -1,14 +1,12 @@
 # PPPwn Lite
 ## New features
-- There is no need to let the PS4 enter "Test Internet Connection" during the process, just keep the PS4 turned on. Administrator rights are required when starting the exe. You can enter the Windows Control Panel\User Account User Account Control Settings to make changes, and you will not receive it again later. Pop-up reminder. If it still does not execute normally, you need to check whether the network cable and network card are disabled. If system and hardware problems are eliminated, you may also need to manually click on the PS4 to enter "Test Internet Connection". You still need to enter the PS4 network to set up PPPoE for the first time. 
-
-- There is no need to manually select stage1.bin and stage2.bin, the default will be the best choice. If you want to use your own bin file, enter "PPPwn" and find the corresponding version to overwrite the bin file.
-
-- Switch the original python solution to the PPPwn C++ solution, which has very low environmental requirements, higher execution efficiency, and a significant increase in success rate.
-
-- When the prompt fails, the next execution will be automatically retried. Combined with the first point, unattended operation can be achieved. In the future, status monitoring and background suspension will be improved to truly allow "full automation" to complete the closed loop.
-
-- Adjust some layouts, copywriting and interactions to make it look smaller and provide a smoother experience
+- ✅Start with Windows
+- ✅Monitor PS4 startup
+- ✅Auto run CPP
+- ✅Auto shut down PC after JB done
+- ✅Online update Lite、stage.bin、goldhen
+- ✅No need to manually select stage.bin
+- ✅No need to enter the test Internet connection
 
 Special thanks to @PokersKun @theflow0 @xfangfang
 
