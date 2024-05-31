@@ -1,7 +1,7 @@
 # PPPwn Lite
 ## New features
-- ✅Start with Windows
-- ✅Monitor PS4 startup
+- ✅Start with Windows (Win7-11)
+- ✅Background Monitor PS4 startup
 - ✅Auto run CPP
 - ✅Auto shut down PC after JB done
 - ✅Online update Lite、stage.bin、goldhen
