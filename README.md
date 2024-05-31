@@ -10,6 +10,19 @@
 
 Special thanks to @PokersKun @theflow0 @xfangfang
 
+## Tips
+- Check“Auto startup”，UAC must be closed！
+- Using Monitor feature， switche/gateway not supported.
+- If Win has a login password, it may not be able to start with Win.
+- If PS4 or PC enters standby, Monitoring will fail.
+- Lite's system tray icon is next to the time display！Right click to exit！
+
+## 4 combinations
+×“Auto start”& ×“Auto turn off pc”：Fully manual operation
+√“Auto start”& ×“Auto turn off pc”：Start with Win & Auto run CPP & Monitor
+√“Auto start”& √“Auto turn off pc”：Start with Win & Auto run CPP & Auto turn off pc
+×“Auto start”& √“Auto turn off pc”：Manual start & Auto turn off pc
+
 ----------------------------------------------------------------------------
 
 
