@@ -18,10 +18,10 @@ Special thanks to @PokersKun @theflow0 @xfangfang
 - Lite's system tray icon is next to the time display！Right click to exit！
 
 ## 4 combinations
-×“Auto start”& ×“Auto turn off pc”：Fully manual operation
-√“Auto start”& ×“Auto turn off pc”：Start with Win & Auto run CPP & Monitor
-√“Auto start”& √“Auto turn off pc”：Start with Win & Auto run CPP & Auto turn off pc
-×“Auto start”& √“Auto turn off pc”：Manual start & Auto turn off pc
+1. ×“Auto start”& ×“Auto turn off pc”：Fully manual operation
+2. √“Auto start”& ×“Auto turn off pc”：Start with Win & Auto run CPP & Monitor
+3. √“Auto start”& √“Auto turn off pc”：Start with Win & Auto run CPP & Auto turn off pc
+4. ×“Auto start”& √“Auto turn off pc”：Manual start & Auto turn off pc
 
 ----------------------------------------------------------------------------
 
