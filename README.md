@@ -1,27 +1,30 @@
 # PPPwn Lite
 ## New features
 - ✅Start with Windows (Win7-11)
-- ✅Background Monitor PS4 startup
 - ✅Auto run CPP
+- ✅Background Monitor PS4 startup after JB done
 - ✅Auto shut down PC after JB done
 - ✅Online update Lite、stage.bin、goldhen
 - ✅No need to manually select stage.bin
 - ✅No need to enter the test Internet connection
+- ✅Support Win7-11(>=.NET 4.72) & 64 or 32bit（Tested）
 
 Special thanks to @PokersKun @theflow0 @xfangfang
 
 ## Tips
 - Check“Auto startup”，UAC must be closed！
-- Using Monitor feature， switche/gateway not supported.
+- Using Monitor feature，switches/gateway not supported.
 - If Win has a login password, it may not be able to start with Win.
 - If PS4 or PC enters standby, Monitoring will fail.
 - Lite's system tray icon is next to the time display！Right click to exit！
+- If the old WinPC stops at "WAIT", update the network card driver or try PPPwnGo.
+- PC cannot be powered on together with PS4 like 5v ARM boxes, so it is not perfect.
 
-## 4 combinations
-1. ×“Auto start”& ×“Auto turn off pc”：Fully manual operation
-2. √“Auto start”& ×“Auto turn off pc”：Start with Win & Auto run CPP & Monitor
-3. √“Auto start”& √“Auto turn off pc”：Start with Win & Auto run CPP & Auto turn off pc
-4. ×“Auto start”& √“Auto turn off pc”：Manual start & Auto turn off pc
+## 4 Combinations
+1. ×“Auto start” & ×“Auto turn off pc”：Fully manual operation
+2. √“Auto start” & ×“Auto turn off pc”：Start with Win & Auto run CPP & Monitor
+3. √“Auto start” & √“Auto turn off pc”：Start with Win & Auto run CPP & Auto turn off pc
+4. ×“Auto start” & √“Auto turn off pc”：Manual start & Auto turn off pc
 
 ----------------------------------------------------------------------------
 
