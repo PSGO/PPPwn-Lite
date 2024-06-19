@@ -1,6 +1,6 @@
 # PPPwn Lite
 
-##支持的版本：
+## Supported versions：
 - FW 7.00 / 7.01 / 7.02
 - FW 7.50 / 7.51
 - FW 7.55（VTX）
