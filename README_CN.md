@@ -1,4 +1,21 @@
 # PPPwn Lite 全自动轻量版
+
+##支持的版本：
+- FW 7.00 / 7.01 / 7.02
+- FW 7.50 / 7.51
+- FW 7.55（VTX）
+- FW 8.00 / 8.01
+- FW 8.03（VTX）
+- FW 8.50 / 8.52（VTX）
+- FW 9.00（GoldHEN）
+- FW 9.03 / 9.04（VTX）
+- FW 9.50（VTX）/ 9.51
+- FW 9.60（VTX）
+- FW 10.00 / 10.01（GoldHEN）
+- FW 10.50 （GoldHEN）
+- FW 10.70 / 10.71（VTX）
+- FW 11.00（GoldHEN）
+
 ## New features
 - ✅Start with Windows (Win7-11)
 - ✅Auto run CPP
