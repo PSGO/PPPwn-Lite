@@ -21,9 +21,11 @@
 - ✅Auto run CPP
 - ✅Background Monitor PS4 startup after JB done
 - ✅Auto shut down PC after JB done
+- ✅Prompt sound after adding JB Done
 - ✅Online update Lite、stage.bin、goldhen
 - ✅No need to manually select stage.bin
 - ✅No need to enter the test Internet connection
+- ✅Switch CPP between formal & beta
 - ✅Support Win7-11(>=.NET 4.72) & 64 or 32bit（Tested）
 
 Special thanks to @PokersKun @theflow0 @xfangfang
