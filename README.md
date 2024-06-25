@@ -1,6 +1,6 @@
 # PPPwn Lite
 
-## Supported versions：
+## Supported FWs version：
 - FW 7.00 / 7.01 / 7.02
 - FW 7.50 / 7.51
 - FW 7.55（VTX）
@@ -9,7 +9,7 @@
 - FW 8.50 / 8.52（VTX）
 - FW 9.00（GoldHEN）
 - FW 9.03 / 9.04（VTX）
-- FW 9.50/ 9.51（VTX）
+- FW 9.50 / 9.51（VTX）
 - FW 9.60（GoldHEN）
 - FW 10.00 / 10.01（GoldHEN）
 - FW 10.50（VTX）
@@ -17,16 +17,17 @@
 - FW 11.00（GoldHEN）
 
 ## New features
+- ✅Support Win7-11(>=.NET 4.72) & 64 or 32bit（Tested）
+- ✅No need to enter the test Internet connection
+- ✅No need to manually select stage.bin
+- ✅Switch CPP between formal & beta
 - ✅Start with Windows (Win7-11)
-- ✅Auto run CPP
+- ✅Auto run PPPwn C++
 - ✅Background Monitor PS4 startup after JB done
 - ✅Auto shut down PC after JB done
 - ✅Prompt sound after adding JB Done
 - ✅Online update Lite、stage.bin、goldhen
-- ✅No need to manually select stage.bin
-- ✅No need to enter the test Internet connection
-- ✅Switch CPP between formal & beta
-- ✅Support Win7-11(>=.NET 4.72) & 64 or 32bit（Tested）
+- ✅Support CPP custom Debug
 
 Special thanks to @PokersKun @theflow0 @xfangfang
 
